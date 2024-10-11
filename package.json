@@ -1,0 +1,16 @@
+{
+  "name": "experiment-consistent-type-imports",
+  "version": "0.0.0-0",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm run build --workspaces",
+    "precommit": "npm run precommit --workspaces"
+  },
+  "author": "William Wong (https://github.com/compulim)",
+  "license": "MIT",
+  "description": "",
+  "workspaces": [
+    "packages/component",
+    "packages/app"
+  ]
+}
